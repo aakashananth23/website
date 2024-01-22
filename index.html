@@ -1,14 +1,13 @@
-<!--here i have created a simple webpage which plays videos when the corresponding button is clicked-->
-
+<!-- here i have created a webpage with a different style of the previous commited project -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sorting Techniques</title> 
+    <title>Document</title>
     <style>
         body{
-        background-image: url("https://www.chromethemer.com/wallpapers/chromebook-wallpapers/images/960/blue-technology-chromebook-wallpaper.jpg");
+        background-image: url("https://c4.wallpaperflare.com/wallpaper/19/954/521/flowers-4k-pictures-wallpaper-preview.jpg");
         background-repeat: no-repeat;
         background-size:100%;
     }
@@ -35,9 +34,8 @@
         #second
         {
             position: relative;
-            background-color:rgb(0, 162, 255);
+            background-color:pink;
             opacity:0.7;
-            margin-top:0%;
             height:100px;
             width:100%;
             text-align: center;
@@ -49,11 +47,7 @@
             position:static;
             opacity:0.5;
             background-color:white;
-            background-image: url("https://cdn4.vectorstock.com/i/1000x1000/62/33/learning-online-graduation-hat-book-education-vector-28086233.jpg");
-            background-size:50%;
-            background-position:center;
-            background-repeat:no-repeat;
-            border-radius:1000px 0px 1000px 0px;
+            border-radius:1000px;
             height:100%;
             width:100%;
         }
@@ -65,7 +59,6 @@
         }
         button
         {
-            background-color: aqua;
             display:inline;
             margin-top:60px;
             margin-left:55px;
@@ -75,19 +68,12 @@
         }
         button:hover
         {
-            background-color:blue;
-            transition:0.2s;
-            box-shadow: aqua 0px 7px 29px 0px;
-            color:white;
-            transform: scale(1.1);
+            background-color:pink;
+            box-shadow: 20px 20px 20px 0px;
         }
         button:active
         {
-            background-color:blue;
-            transition:0.1s;
-            box-shadow: aqua 0px 7px 29px 0px;
-            color:white;
-            transform: translateY(10px);
+            transform:translateY(10px);
         }
         #heading
         {
@@ -106,102 +92,96 @@
         }
         #intro h1
         {
-            margin-top:45%;
-
+            margin-top:40%;
         }
         #img1
         {
-            
+            background-color: black;
             display:none;
             position:absolute;
-            width:900px;
-            height: 510px;
-            margin-left:29%;
-            margin-top:12%;
-            border-radius:50px ;
+            width:500px;
+            height:500px;
+            margin-left:41%;
+            margin-top:10%;
+
         }
         #img2
         {
-            
+            background-color: black;
             display:none;
             position:absolute;
-            width:900px;
-            height: 510px;
-            margin-left:29%;
-            margin-top:12%;
-            border-radius:50px ;
+            width:500px;
+            height:500px;
+            margin-left:41%;
+            margin-top:10%;
 
         }
         #img3
         {
-            
+            background-color: black;
             display:none;
             position:absolute;
-            width:900px;
-            height: 510px;
-            margin-left:29%;
-            margin-top:12%;
-            border-radius:50px ;
+            width:500px;
+            height:500px;
+            margin-left:41%;
+            margin-top:10%;
 
         }
         #img4
         {
-            
+            background-color: black;
             display:none;
             position:absolute;
-            width:900px;
-            height: 510px;
-            margin-left:29%;
-            margin-top:12%;
-            border-radius:50px ;
+            width:500px;
+            height:500px;
+            margin-left:41%;
+            margin-top:10%;
 
         }
         #img5
         {
-            
+            background-color: black;
             display:none;
             position:absolute;
-            width:900px;
-            height: 510px;
-            margin-left:29%;
-            margin-top:12%;
-            border-radius:50px ;
+            width:500px;
+            height:500px;
+            margin-left:41%;
+            margin-top:10%;
 
         }
         #img6
         {
-            
+            background-color: black;
             display:none;
             position:absolute;
-            width:900px;
-            height: 510px;
-            margin-left:29%;
-            margin-top:12%;
-            border-radius:50px ;
+            width:500px;
+            height:500px;
+            margin-left:41%;
+            margin-top:10%;
 
         }
-        #img1 iframe
+        #img1 img
         {
             width:100%;
             height:100%;
         }
-        #img2 iframe
+        #img2 img
         {
             width:100%;
             height:100%;
-        }#img3 iframe
+        }#img3 img
         {
             width:100%;
             height:100%;
-        }#img4 iframe
+        }#img4 img
         {
             width:100%;
             height:100%;
-        }#img5 iframe
+        }#img5 img
         {
             width:100%;
             height:100%;
-        }#img6 iframe
+        }#img6 img
         {
             width:100%;
             height:100%;
@@ -213,12 +193,12 @@
     <div id="main">
         <div id="first">
             <div>
-            <button onclick="SELECTION()">SELECTION SORT</button><br><br>   
-            <button onclick="BUBBLE()">BUBBLE SORT</button><br><br>
-            <button onclick="INSERTION()">INSERTION SORT</button><br><br>
-            <button onclick="MERGE()">MERGE SORT</button><br><br>
-            <button onclick="QUICK()">QUICK SORT</button><br><br>
-            <button onclick="HEAP()">HEAP SORT</button><br><br>
+            <button onclick="lily()">LILY</button><br><br>   
+            <button onclick="rose()">ROSE</button><br><br>
+            <button onclick="sunflower()">SUNFLOWER</button><br><br>
+            <button onclick="tulip()">TULIP</button><br><br>
+            <button onclick="azealea()">AZEALEA</button><br><br>
+            <button onclick="chrysanthemum()">CHRYSANTHEMUM</button><br><br>
         </div>
         </div>
 
@@ -228,7 +208,7 @@
         <div id="second">
             <br>
             <h1 id="heading">
-                🎓Learn sorting with me !
+                FLOWER COLLECTION
             </h1>
         </div>
         <br>
@@ -237,39 +217,32 @@
         </div>
         </div>
         <div id="intro">
-            <h1>Choose The Concept You Would Like To Learn</h1>
+            <h1>Click on the buttons to the get the images of the flower</h1>
         </div>
         <div id="img1">
-            <iframe style="border-radius:90px 0px 90px 0px"  width="50%" height="50%" src="https://www.youtube.com/embed/9oWd4VJOwr0?autoplay=1&mute=1">
-            </iframe>
+            <img id="lily" src="https://media.flyingflowers.co.uk/i/flyingflowers/Oriental-lily-1.jpg?$poi-square$&fmt=auto&qlt=default&fmt.jp2.qlt=60&bg=rgb%28255%2C+255%2C+255%29&w=836&aspect=1%3A1"></img>
         </div>
         <div id="img2">
-            <iframe style="border-radius:90px 0px 90px 0px" width="50%" height="50%" src="https://www.youtube.com/embed/o4bAoo_gFBU?autoplay=1&mute=1">
-            </iframe>
+            <img id="rose" src="https://nurserylive.com/cdn/shop/products/nurserylive-plants-rose-pink-plant.png?v=1670223566"></img>
         </div>
         <div id="img3">
-            <iframe style="border-radius:90px 0px 90px 0px" width="50%" height="50%" src="https://www.youtube.com/embed/yCxV0kBpA6M?autoplay=1&mute=1">
-            </iframe>
+            <img id="sunflower" src="https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/1-sunflower-2018-1-thomas-young.jpg"></img>
         </div>
         <div id="img4">
-            <iframe style="border-radius:90px 0px 90px 0px" width="50%" height="50%" src="https://www.youtube.com/embed/jlHkDBEumP0?autoplay=1&mute=1">
-            </iframe>
+            <img id="tulip" src="https://5.imimg.com/data5/ZR/OO/EA/SELLER-34246236/tulip-flower.jpg"></img>
         </div>
         <div id="img5">
-            <iframe style="border-radius:90px 0px 90px 0px" width="50%" height="50%" src="https://www.youtube.com/embed/QN9hnmAgmOc?autoplay=1&mute=1">
-            </iframe>
+            <img id="azealea" src="https://newnessplant.in/wp-content/uploads/2022/06/azalea-flower-1.jpg"></img>
         </div>
         <div id="img6">
-            <iframe style="border-radius:90px 0px 90px 0px" width="50%" height="50%" src="https://www.youtube.com/embed/Q_eia3jC9Ts?autoplay=1&mute=1">
-            </iframe>
+             <img id="chrysanthemum" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Chrysanthemum%2Ckiku%2Ckatori-city%2Cjapan.JPG/1200px-Chrysanthemum%2Ckiku%2Ckatori-city%2Cjapan.JPG"></img>
         </div>
     </div>
     
 <script>
-    function SELECTION()
+    function lily()
     {
         document.getElementById("img1").style.display = "block";
-        document.getElementById("img1").querySelector("iframe").src = "https://www.youtube.com/embed/9oWd4VJOwr0?autoplay=1&mute=1&start=0";
         document.getElementById("img2").style.display = "none";
         document.getElementById("img3").style.display = "none";
         document.getElementById("img4").style.display = "none";
@@ -277,51 +250,47 @@
         document.getElementById("img6").style.display = "none";
     }
 
-    function BUBBLE()
+    function rose()
     {
         document.getElementById("img1").style.display = "none";
         document.getElementById("img2").style.display = "block";
-        document.getElementById("img2").querySelector("iframe").src = "https://www.youtube.com/embed/o4bAoo_gFBU?autoplay=1&mute=1&start=0";
         document.getElementById("img3").style.display = "none";
         document.getElementById("img4").style.display = "none";
         document.getElementById("img5").style.display = "none";
         document.getElementById("img6").style.display = "none";
     }
 
-    function INSERTION()
+    function sunflower()
     {
         document.getElementById("img1").style.display = "none";
         document.getElementById("img2").style.display = "none";
         document.getElementById("img3").style.display = "block";
-        document.getElementById("img3").querySelector("iframe").src = "https://www.youtube.com/embed/yCxV0kBpA6M?autoplay=1&mute=1&start=0";
         document.getElementById("img4").style.display = "none";
         document.getElementById("img5").style.display = "none";
         document.getElementById("img6").style.display = "none";
     }
 
-    function MERGE()
+    function tulip()
     {
         document.getElementById("img1").style.display = "none";
         document.getElementById("img2").style.display = "none";
         document.getElementById("img3").style.display = "none";
         document.getElementById("img4").style.display = "block";
-        document.getElementById("img4").querySelector("iframe").src = "https://www.youtube.com/embed/jlHkDBEumP0?autoplay=1&mute=1&start=0";
         document.getElementById("img5").style.display = "none";
         document.getElementById("img6").style.display = "none";
     }
 
-    function QUICK()
+    function azealea()
     {
         document.getElementById("img1").style.display = "none";
         document.getElementById("img2").style.display = "none";
         document.getElementById("img3").style.display = "none";
         document.getElementById("img4").style.display = "none";
         document.getElementById("img5").style.display = "block";
-        document.getElementById("img5").querySelector("iframe").src = "https://www.youtube.com/embed/QN9hnmAgmOc?autoplay=1&mute=1&start=0";
         document.getElementById("img6").style.display = "none";
     }
 
-    function HEAP()
+    function chrysanthemum()
     {
         document.getElementById("img1").style.display = "none";
         document.getElementById("img2").style.display = "none";
@@ -329,9 +298,7 @@
         document.getElementById("img4").style.display = "none";
         document.getElementById("img5").style.display = "none";
         document.getElementById("img6").style.display = "block";
-        document.getElementById("img6").querySelector("iframe").src = "https://www.youtube.com/embed/Q_eia3jC9Ts?autoplay=1&mute=1&start=0";
     }
 </script>
-   
 </body>
 </html>
